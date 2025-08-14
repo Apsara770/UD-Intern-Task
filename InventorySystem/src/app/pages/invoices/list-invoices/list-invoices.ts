@@ -7,70 +7,7 @@ import { ApiService } from '../../../services/api';
   selector: 'app-list-invoices',
   standalone: true,
   imports: [CommonModule],
-  template: `
-    <div class="container my-4">
-      <div class="card shadow-sm border-0 rounded">
-        <div class="card-body">
-          <div class="d-flex justify-content-between align-items-center mb-4">
-            <h2 class="fw-bold mb-0">Invoices List</h2>
-            <button 
-              (click)="addInvoice()" 
-              class="btn btn-success shadow-sm">
-              <i class="bi bi-plus-circle"></i> Add Invoice
-            </button>
-          </div>
-
-          <div class="table-responsive">
-            <table class="table table-striped table-bordered table-hover align-middle mb-0">
-              <thead class="table-dark">
-                <tr>
-                  <th>ID</th>
-                  <th>Customer</th>
-                  <th>Date</th>
-                  <th>Items</th>
-                  <th>Grand Total (LKR)</th>
-                  <th>Actions</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr *ngFor="let invoice of invoices">
-                  <td>{{ invoice.invoiceId }}</td>
-                  <td>{{ invoice.customerName }}</td>
-                  <td>{{ invoice.invoiceDate | date: 'shortDate' }}</td>
-                  <td>
-                    <ul class="mb-0 ps-3">
-                      <li *ngFor="let item of invoice.items">
-                        {{ item.itemName }} (x{{ item.quantity }}) -
-                        {{ item.total | currency:'LKR':'symbol':'1.2-2' }}
-                      </li>
-                    </ul>
-                  </td>
-                  <td>{{ invoice.grandTotal | currency:'LKR':'symbol':'1.2-2' }}</td>
-                  <td>
-                    <button 
-                      (click)="viewInvoice(invoice.invoiceId)" 
-                      class="btn btn-primary btn-sm shadow-sm me-2">
-                      <i class="bi bi-printer"></i> Print
-                    </button>
-                    <button 
-                      (click)="removeInvoice(invoice.invoiceId)" 
-                      class="btn btn-danger btn-sm shadow-sm">
-                      <i class="bi bi-trash"></i> Remove
-                    </button>
-                  </td>
-                </tr>
-                <tr *ngIf="invoices.length === 0">
-                  <td colspan="6" class="text-center text-muted py-3">
-                    No invoices found.
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-  `
+  templateUrl: './list-invoices.html'
 })
 export class ListInvoicesComponent implements OnInit {
   private api = inject(ApiService);

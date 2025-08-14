@@ -18,6 +18,6 @@ export const routes: Routes = [
   { path: 'invoices/view/:id', component: ViewInvoiceComponent },
 
   // Default route
-  { path: '', redirectTo: 'items', pathMatch: 'full' },
+  { path: '', redirectTo: 'items', pathMatch: 'full' }, // redirect to items list on empty path
   { path: '**', redirectTo: 'items' } // fallback route
 ];

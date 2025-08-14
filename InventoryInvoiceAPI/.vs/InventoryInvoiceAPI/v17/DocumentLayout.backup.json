@@ -54,8 +54,7 @@
               "RelativeToolTip": "InventoryInvoiceAPI\\Dtos\\InvoiceCreateDto.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAwwCIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T07:11:22.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T07:11:22.568Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "InventoryInvoiceAPI\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T06:24:27.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T06:24:27.858Z"
             },
             {
               "$type": "Document",
@@ -78,7 +76,7 @@
               "RelativeDocumentMoniker": "InventoryInvoiceAPI\\Models\\InvoiceItem.cs",
               "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\InternTask\\InventoryInvoiceAPI\\InventoryInvoiceAPI\\Models\\InvoiceItem.cs",
               "RelativeToolTip": "InventoryInvoiceAPI\\Models\\InvoiceItem.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T03:06:22.467Z",
               "EditorCaption": ""
@@ -93,8 +91,7 @@
               "RelativeToolTip": "InventoryInvoiceAPI\\Models\\Invoice.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAIwAQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T02:39:53.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T02:39:53.713Z"
             },
             {
               "$type": "Document",
@@ -118,8 +115,7 @@
               "RelativeToolTip": "InventoryInvoiceAPI\\Controllers\\InvoicesController.cs",
               "ViewState": "AgIAAJMAAAAAAAAAAADwv6EAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T11:27:50.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T11:27:50.154Z"
             },
             {
               "$type": "Document",
@@ -143,8 +139,7 @@
               "RelativeToolTip": "InventoryInvoiceAPI\\Program.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T16:08:14.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T16:08:14.993Z"
             }
           ]
         }

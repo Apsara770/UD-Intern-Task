@@ -7,46 +7,7 @@ import { ApiService } from '../../../services/api';
   selector: 'app-view-invoice',
   standalone: true,
   imports: [CommonModule],
-  template: `
-    <div class="container my-4">
-      <div class="card shadow-sm border-0 rounded">
-        <div class="card-header bg-primary text-white">
-          <h4 class="mb-0 fw-bold">Invoice Details</h4>
-        </div>
-        <div class="card-body" *ngIf="invoice">
-          <p><strong>ID:</strong> {{ invoice.invoiceId }}</p>
-          <p><strong>Customer:</strong> {{ invoice.customerName }}</p>
-          <p><strong>Date:</strong> {{ invoice.invoiceDate | date: 'shortDate' }}</p>
-
-          <h5 class="mt-4 fw-bold">Items</h5>
-          <div class="table-responsive shadow-sm rounded">
-            <table class="table table-striped table-bordered table-sm mb-0">
-              <thead class="table-dark">
-                <tr>
-                  <th>Item</th>
-                  <th>Qty</th>
-                  <th>Total (LKR)</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr *ngFor="let item of invoice.items">
-                  <td>{{ item.itemName }}</td>
-                  <td>{{ item.quantity }}</td>
-                  <td>{{ item.total | currency:'LKR':'symbol':'1.2-2' }}</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <div class="text-end mt-3">
-            <h5 class="fw-bold text-success">
-              Total: LKR {{ invoice.grandTotal | number:'1.2-2' }}
-            </h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  `
+  templateUrl: './view-invoice.html'
 })
 export class ViewInvoiceComponent implements OnInit {
   api = inject(ApiService);
