@@ -42,6 +42,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "InventoryInvoiceAPI.Controllers.InvoicesController",
+    "Method": "Delete",
+    "RelativePath": "api/Invoices/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "InventoryInvoiceAPI.Controllers.ItemsController",
     "Method": "Get",
     "RelativePath": "api/Items",

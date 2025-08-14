@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add services to the container
 builder.Services.AddControllers();
 
-// Swagger/OpenAPI
+// Swagger/OpenAPI for development
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -18,24 +18,27 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngular", policy =>
-        policy.AllowAnyHeader()
-              .AllowAnyMethod()
-              .AllowAnyOrigin());
+    {
+        policy.WithOrigins("http://localhost:4200") // Angular dev URL
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
 });
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Swagger only in development
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
-
-// **Apply CORS policy here**
+// Apply CORS policy BEFORE authorization
 app.UseCors("AllowAngular");
+
+// **Use HTTP only for development**
+// app.UseHttpsRedirection(); // Commented out
 
 app.UseAuthorization();
 

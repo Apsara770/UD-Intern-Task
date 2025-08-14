@@ -169,3 +169,4 @@ C:\Users\ADMIN\OneDrive\Desktop\InternTask\InventoryInvoiceAPI\InventoryInvoiceA
 C:\Users\ADMIN\OneDrive\Desktop\InternTask\InventoryInvoiceAPI\InventoryInvoiceAPI\obj\Debug\net8.0\InventoryInvoiceAPI.pdb
 C:\Users\ADMIN\OneDrive\Desktop\InternTask\InventoryInvoiceAPI\InventoryInvoiceAPI\obj\Debug\net8.0\InventoryInvoiceAPI.genruntimeconfig.cache
 C:\Users\ADMIN\OneDrive\Desktop\InternTask\InventoryInvoiceAPI\InventoryInvoiceAPI\obj\Debug\net8.0\ref\InventoryInvoiceAPI.dll
+C:\Users\ADMIN\OneDrive\Desktop\InternTask\InventoryInvoiceAPI\InventoryInvoiceAPI\obj\Debug\net8.0\InventoryInvoiceAPI.sourcelink.json

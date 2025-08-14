@@ -14,7 +14,8 @@ namespace InventoryInvoiceAPI.Controllers
         public InvoicesController(AppDbContext db) => _db = db;
 
         [HttpGet]
-        public async Task<IActionResult> Get() => Ok(await _db.Invoices.Include(i => i.InvoiceItems).ToListAsync());
+        public async Task<IActionResult> Get() =>
+            Ok(await _db.Invoices.Include(i => i.InvoiceItems).ThenInclude(ii => ii.Item).ToListAsync());
 
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
@@ -29,7 +30,6 @@ namespace InventoryInvoiceAPI.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] InvoiceCreateDto dto)
         {
-            // Build invoice and calculate totals
             var invoice = new Invoice
             {
                 CustomerName = dto.CustomerName,
@@ -54,7 +54,7 @@ namespace InventoryInvoiceAPI.Controllers
                     Total = lineTotal
                 };
 
-                // update stock (optional: check negative)
+                // Update stock
                 item.StockQuantity -= it.Quantity;
                 _db.Entry(item).State = EntityState.Modified;
 
@@ -66,6 +66,26 @@ namespace InventoryInvoiceAPI.Controllers
             await _db.SaveChangesAsync();
 
             return CreatedAtAction(nameof(Get), new { id = invoice.InvoiceId }, invoice);
+        }
+
+        //  DELETE endpoint
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var invoice = await _db.Invoices
+                                   .Include(i => i.InvoiceItems)
+                                   .FirstOrDefaultAsync(i => i.InvoiceId == id);
+
+            if (invoice == null)
+                return NotFound();
+
+            // Remove related invoice items first (if foreign key exists)
+            _db.InvoiceItems.RemoveRange(invoice.InvoiceItems);
+
+            _db.Invoices.Remove(invoice);
+            await _db.SaveChangesAsync();
+
+            return NoContent(); // 204
         }
     }
 }

@@ -2,40 +2,48 @@ import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable({ providedIn: 'root' })
 export class ApiService {
   private http = inject(HttpClient);
-  private baseUrl = 'https://localhost:7158/api'; // Use HTTPS if API runs with HTTPS
+  private baseUrl = 'http://localhost:7158/api'; // HTTP for dev
 
-  // ===== Items =====
+  // Items
   getItems(): Observable<any> {
-    return this.http.get<any>(`${this.baseUrl}/items`);
+    return this.http.get(`${this.baseUrl}/items`);
   }
 
+  getItemById(id: number): Observable<any> {   
+  return this.http.get(`${this.baseUrl}/items/${id}`);
+}
+
   createItem(item: any): Observable<any> {
-    return this.http.post<any>(`${this.baseUrl}/items`, item);
+    return this.http.post(`${this.baseUrl}/items`, item);
   }
 
   updateItem(id: number, item: any): Observable<any> {
-    return this.http.put<any>(`${this.baseUrl}/items/${id}`, item);
+    return this.http.put(`${this.baseUrl}/items/${id}`, item);
   }
 
   deleteItem(id: number): Observable<any> {
-    return this.http.delete<any>(`${this.baseUrl}/items/${id}`);
+    return this.http.delete(`${this.baseUrl}/items/${id}`);
   }
 
-  // ===== Invoices =====
-  createInvoice(invoice: any): Observable<any> {
-    return this.http.post<any>(`${this.baseUrl}/invoices`, invoice);
-  }
+  // Invoices
+createInvoice(dto: any) {
+  return this.http.post(`${this.baseUrl}/invoices`, dto);
+}
+
 
   getInvoices(): Observable<any> {
-    return this.http.get<any>(`${this.baseUrl}/invoices`);
+    return this.http.get(`${this.baseUrl}/invoices`);
   }
 
   getInvoiceById(id: number): Observable<any> {
-    return this.http.get<any>(`${this.baseUrl}/invoices/${id}`);
+    return this.http.get(`${this.baseUrl}/invoices/${id}`);
+  }
+
+    // Delete invoice by ID
+  removeInvoice(id: number): Observable<void> {
+    return this.http.delete<void>(`${this.baseUrl}/invoices/${id}`);
   }
 }
