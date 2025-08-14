@@ -125,7 +125,7 @@ git clone https://github.com/Apsara770/UD-Intern-Task.git
 3) Ensure you have the following installed via Visual Studio Installer:
 
    * ASP.NET and web development workload
-   * .NET 6.0 SDK or later
+   * .NET 8.0 SDK or later
    * SQL Server Data Tools (optional but recommended)
 4) Update `appsettings.json` with your SQL Server connection string.
 5) Open **Package Manager Console** and run:
