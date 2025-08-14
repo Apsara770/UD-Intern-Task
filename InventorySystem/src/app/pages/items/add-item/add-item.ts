@@ -11,51 +11,62 @@ import { ApiService } from '../../../services/api';
   styleUrls: ['./add-item.css'],
   template: `
     <div class="container my-4">
-      <h2 class="mb-4">Add Item</h2>
-      <form (ngSubmit)="onSubmit()" class="needs-validation" novalidate>
-        <div class="mb-3">
-          <label for="name" class="form-label">Name:</label>
-          <input
-            type="text"
-            id="name"
-            class="form-control"
-            [(ngModel)]="item.name"
-            name="name"
-            required
-          >
-        </div>
+      <div class="card shadow-sm border-0 rounded">
+        <div class="card-body">
+          <h2 class="card-title mb-4 fw-bold">Add New Item</h2>
 
-        <div class="mb-3">
-          <label for="price" class="form-label">Price:</label>
-          <input
-            type="number"
-            id="price"
-            class="form-control"
-            [(ngModel)]="item.price"
-            name="price"
-            required
-          >
-        </div>
+          <form (ngSubmit)="onSubmit()" class="needs-validation" novalidate>
+            <div class="mb-3">
+              <label for="name" class="form-label fw-semibold">Name</label>
+              <input
+                type="text"
+                id="name"
+                class="form-control"
+                [(ngModel)]="item.name"
+                name="name"
+                required
+              >
+            </div>
 
-        <div class="mb-3">
-          <label for="stockQuantity" class="form-label">Quantity:</label>
-          <input
-            type="number"
-            id="stockQuantity"
-            class="form-control"
-            [(ngModel)]="item.stockQuantity"
-            name="stockQuantity"
-            required
-          >
-        </div>
+            <div class="mb-3">
+              <label for="price" class="form-label fw-semibold">Price (LKR)</label>
+              <input
+               
+                id="price"
+                class="form-control"
+                [(ngModel)]="item.price"
+                name="price"
+                required
+              >
+            </div>
 
-        <button type="submit" class="btn btn-success">
-          <i class="bi bi-check-circle"></i> Save
-        </button>
-        <button type="button" class="btn btn-secondary ms-2" (click)="router.navigate(['/items'])">
-          Cancel
-        </button>
-      </form>
+            <div class="mb-3">
+              <label for="stockQuantity" class="form-label fw-semibold">Quantity</label>
+              <input
+                type="number"
+                id="stockQuantity"
+                class="form-control"
+                [(ngModel)]="item.stockQuantity"
+                name="stockQuantity"
+                required
+              >
+            </div>
+
+            <div class="d-flex justify-content-start">
+              <button type="submit" class="btn btn-success shadow-sm me-2">
+                <i class="bi bi-check-circle"></i> Save
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary shadow-sm"
+                (click)="router.navigate(['/items'])"
+              >
+                Cancel
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   `
 })

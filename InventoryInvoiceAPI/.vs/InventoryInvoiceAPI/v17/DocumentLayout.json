@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\InternTask\\InventoryInvoiceAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|c:\\users\\admin\\onedrive\\desktop\\interntask\\inventoryinvoiceapi\\inventoryinvoiceapi\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|solutionrelative:inventoryinvoiceapi\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|c:\\users\\admin\\onedrive\\desktop\\interntask\\inventoryinvoiceapi\\inventoryinvoiceapi\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|solutionrelative:inventoryinvoiceapi\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +11,24 @@
       "RelativeMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|solutionrelative:inventoryinvoiceapi\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|c:\\users\\admin\\onedrive\\desktop\\interntask\\inventoryinvoiceapi\\inventoryinvoiceapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|solutionrelative:inventoryinvoiceapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|c:\\users\\admin\\onedrive\\desktop\\interntask\\inventoryinvoiceapi\\inventoryinvoiceapi\\dtos\\invoicecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|solutionrelative:inventoryinvoiceapi\\dtos\\invoicecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|c:\\users\\admin\\onedrive\\desktop\\interntask\\inventoryinvoiceapi\\inventoryinvoiceapi\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|solutionrelative:inventoryinvoiceapi\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|c:\\users\\admin\\onedrive\\desktop\\interntask\\inventoryinvoiceapi\\inventoryinvoiceapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|solutionrelative:inventoryinvoiceapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|c:\\users\\admin\\onedrive\\desktop\\interntask\\inventoryinvoiceapi\\inventoryinvoiceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|solutionrelative:inventoryinvoiceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|c:\\users\\admin\\onedrive\\desktop\\interntask\\inventoryinvoiceapi\\inventoryinvoiceapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|solutionrelative:inventoryinvoiceapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BA51D0F-F8C9-4140-B47A-E1227289EA3E}|InventoryInvoiceAPI\\InventoryInvoiceAPI.csproj|c:\\users\\admin\\onedrive\\desktop\\interntask\\inventoryinvoiceapi\\inventoryinvoiceapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -34,37 +42,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "InvoiceCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\InternTask\\InventoryInvoiceAPI\\InventoryInvoiceAPI\\Dtos\\InvoiceCreateDto.cs",
+              "RelativeDocumentMoniker": "InventoryInvoiceAPI\\Dtos\\InvoiceCreateDto.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\InternTask\\InventoryInvoiceAPI\\InventoryInvoiceAPI\\Dtos\\InvoiceCreateDto.cs",
+              "RelativeToolTip": "InventoryInvoiceAPI\\Dtos\\InvoiceCreateDto.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T07:11:22.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\InternTask\\InventoryInvoiceAPI\\InventoryInvoiceAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "InventoryInvoiceAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\InternTask\\InventoryInvoiceAPI\\InventoryInvoiceAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "InventoryInvoiceAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T06:24:27.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "InvoiceItem.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\InternTask\\InventoryInvoiceAPI\\InventoryInvoiceAPI\\Models\\InvoiceItem.cs",
               "RelativeDocumentMoniker": "InventoryInvoiceAPI\\Models\\InvoiceItem.cs",
               "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\InternTask\\InventoryInvoiceAPI\\InventoryInvoiceAPI\\Models\\InvoiceItem.cs",
               "RelativeToolTip": "InventoryInvoiceAPI\\Models\\InvoiceItem.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T03:06:22.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Invoice.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\InternTask\\InventoryInvoiceAPI\\InventoryInvoiceAPI\\Models\\Invoice.cs",
               "RelativeDocumentMoniker": "InventoryInvoiceAPI\\Models\\Invoice.cs",
               "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\InternTask\\InventoryInvoiceAPI\\InventoryInvoiceAPI\\Models\\Invoice.cs",
               "RelativeToolTip": "InventoryInvoiceAPI\\Models\\Invoice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T02:39:53.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\InternTask\\InventoryInvoiceAPI\\InventoryInvoiceAPI\\Models\\Item.cs",
               "RelativeDocumentMoniker": "InventoryInvoiceAPI\\Models\\Item.cs",
@@ -72,25 +106,24 @@
               "RelativeToolTip": "InventoryInvoiceAPI\\Models\\Item.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T11:30:59.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T11:30:59.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "InvoicesController.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\InternTask\\InventoryInvoiceAPI\\InventoryInvoiceAPI\\Controllers\\InvoicesController.cs",
               "RelativeDocumentMoniker": "InventoryInvoiceAPI\\Controllers\\InvoicesController.cs",
               "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\InternTask\\InventoryInvoiceAPI\\InventoryInvoiceAPI\\Controllers\\InvoicesController.cs",
               "RelativeToolTip": "InventoryInvoiceAPI\\Controllers\\InvoicesController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAuwFcAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAADwv6EAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-13T11:27:50.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\InternTask\\InventoryInvoiceAPI\\InventoryInvoiceAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "InventoryInvoiceAPI\\Properties\\launchSettings.json",
@@ -102,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\InternTask\\InventoryInvoiceAPI\\InventoryInvoiceAPI\\Program.cs",
               "RelativeDocumentMoniker": "InventoryInvoiceAPI\\Program.cs",
@@ -110,7 +143,8 @@
               "RelativeToolTip": "InventoryInvoiceAPI\\Program.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T16:08:14.993Z"
+              "WhenOpened": "2025-08-12T16:08:14.993Z",
+              "EditorCaption": ""
             }
           ]
         }
