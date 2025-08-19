@@ -114,7 +114,7 @@ The system provides **Item Management (CRUD)** and **Invoice Creation (Master–
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/Apsara770/UD-Intern-Task.git](https://github.com/Apsara770/UD-Intern-Task
+git clone https://github.com/Apsara770/UD-Intern-Task
 ```
 
 ### 2. Backend Installation & Setup (Visual Studio)
